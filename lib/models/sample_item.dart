@@ -28,7 +28,7 @@ class SampleItem {
   factory SampleItem.fromMap(Map<String, dynamic> map) {
     return SampleItem(
       id: map['id'] as String,
-      name: map['name'] as String,
+      name: map['name'],
     );
   }
 }
