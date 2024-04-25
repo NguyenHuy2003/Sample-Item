@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:sample_item/models/sample_item.dart';
 import 'package:sample_item/widget/sample_item_update.dart';
 
-import 'sample_item_view_model.dart';
+import '../views/sample_item_view_model.dart';
 
 class SampleItemDetailsView extends StatefulWidget {
   final SampleItem item;

@@ -3,7 +3,7 @@ import 'package:sample_item/widget/sample_item_update.dart';
 import 'package:sample_item/widget/sample_item_widget.dart';
 
 import 'sample_item_details_view.dart';
-import 'sample_item_view_model.dart';
+import '../views/sample_item_view_model.dart';
 
 class SampleItemListView extends StatefulWidget {
   const SampleItemListView({super.key});
